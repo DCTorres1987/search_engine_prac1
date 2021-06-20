@@ -3,9 +3,9 @@
  {"Name":"Bones", "Animal": "Dog", "Image": "/image/bones_ty.jpg"},
  {"Name":"Ally", "Animal": "Alligator", "Image": "/image/ally_ty.png"},
  {"Name":"Ants", "Animal": "Anteater", "Image": "/image/ant_ty.jpg"},
- {"Name":"Chops", "Animal": "Lamb"},
- {"Name":"Patti", "Animal": "Platypus"},
- {"Name":"Radar", "Animal": "Bat"},
- {"Name":"Ziggy", "Animal": "Zebra"},
+ {"Name":"Chops", "Animal": "Lamb", "Image": "/image/chops_ty.jpg"},
+ {"Name":"Patti", "Animal": "Platypus", "Image": "/image/patti_ty.jpg"},
+ {"Name":"Radar", "Animal": "Bat", "Image": "/image/radar_ty.jpg"},
+ {"Name":"Ziggy", "Animal": "Zebra", "Image": "/image/ziggy_ty.jpg"},
  {"Name":"Inky", "Animal": "Octopus", "Image": "/image/inky_ty.jpg"}
 ]
