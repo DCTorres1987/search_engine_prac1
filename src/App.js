@@ -24,9 +24,16 @@ function App() {
       
       }).map((val, key) => {
         return (
-          <div className="beanie" key={'ID'+key}>
-            <img src={val.Image} alt={val.Name} />
-            <h2 className="Name">{val.Name}</h2>
+          <div className="main">
+            <div className="beanie" key={'ID'+key}>
+              <div className="beanie-image">
+                <img src={val.Image} alt={val.Name} /> 
+                <div className="beanie-text">
+                  <b><p className="Name">{val.Name}</p></b>
+                </div>     
+                <p className="Poem">{val.Poem}</p>             
+              </div>             
+            </div>            
           </div>
         )
       })}
