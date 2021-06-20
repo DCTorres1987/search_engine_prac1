@@ -1,11 +1,11 @@
-[{"Name":"Bongo", "Animal": "Monkey"},
+[{"Name":"Bongo", "Animal": "Monkey", "Image": "/image/bongo_ty.png"},
  {"Name":"Blizzard", "Animal": "Tiger", "Image": "/image/blizzard_ty.png" },
- {"Name":"Bones", "Animal": "Dog"},
- {"Name":"Ally", "Animal": "Alligator"},
+ {"Name":"Bones", "Animal": "Dog", "Image": "/image/bones_ty.jpg"},
+ {"Name":"Ally", "Animal": "Alligator", "Image": "/image/ally_ty.png"},
  {"Name":"Ants", "Animal": "Anteater"},
  {"Name":"Chops", "Animal": "Lamb"},
  {"Name":"Patti", "Animal": "Platypus"},
  {"Name":"Radar", "Animal": "Bat"},
  {"Name":"Ziggy", "Animal": "Zebra"},
- {"Name":"Inky", "Animal": "Octopus"}
+ {"Name":"Inky", "Animal": "Octopus", "Image": "/image/inky_ty.jpg"}
 ]

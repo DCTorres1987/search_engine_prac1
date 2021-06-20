@@ -25,7 +25,8 @@ function App() {
       }).map((val, key) => {
         return (
           <div className="beanie" key={'ID'+key}>
-            {val.Name}
+            <img src={val.Image} alt={val.Name} />
+            <h2 className="Name">{val.Name}</h2>
           </div>
         )
       })}
