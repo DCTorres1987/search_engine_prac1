@@ -2,7 +2,7 @@
  {"Name":"Blizzard", "Animal": "Tiger", "Image": "/image/blizzard_ty.png" },
  {"Name":"Bones", "Animal": "Dog", "Image": "/image/bones_ty.jpg"},
  {"Name":"Ally", "Animal": "Alligator", "Image": "/image/ally_ty.png"},
- {"Name":"Ants", "Animal": "Anteater"},
+ {"Name":"Ants", "Animal": "Anteater", "Image": "/image/ant_ty.jpg"},
  {"Name":"Chops", "Animal": "Lamb"},
  {"Name":"Patti", "Animal": "Platypus"},
  {"Name":"Radar", "Animal": "Bat"},

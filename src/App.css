@@ -5,6 +5,11 @@
 .beanie {
   margin:auto;
   box-shadow: 5px 10px lightgrey;
-  max-width: 300px;
+  max-width: 25%;
 }
 
+.beanie img {
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+}
