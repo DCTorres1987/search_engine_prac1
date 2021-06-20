@@ -1,0 +1,11 @@
+[{"Name":"Bongo", "Animal": "Monkey"},
+ {"Name":"Blizzard", "Animal": "Tiger", "Image": "/image/blizzard_ty.png" },
+ {"Name":"Bones", "Animal": "Dog"},
+ {"Name":"Ally", "Animal": "Alligator"},
+ {"Name":"Ants", "Animal": "Anteater"},
+ {"Name":"Chops", "Animal": "Lamb"},
+ {"Name":"Patti", "Animal": "Platypus"},
+ {"Name":"Radar", "Animal": "Bat"},
+ {"Name":"Ziggy", "Animal": "Zebra"},
+ {"Name":"Inky", "Animal": "Octopus"}
+]
