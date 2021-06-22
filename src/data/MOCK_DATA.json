@@ -1,5 +1,5 @@
-[{"Name":"Bongo", "Animal": "Monkey", "Image": "/image/bongo_ty.png"},
- {"Name":"Blizzard", "Animal": "Tiger", "Image": "/image/blizzard_ty.png" },
+[{"Name":"Bongo", "Animal": "Monkey", "Image": "/image/bongo_ty.png", "Poem": "Bongo the monkey lives in a tree, The happiest monkey you’ll ever see, In his spare time he plays the guitar, One of these days he will be a big star!"},
+ {"Name":"Blizzard", "Animal": "Tiger", "Image": "/image/blizzard_ty.png", "Poem": "In the mountains, where it’s snowy and cold, Lives a beautiful tiger, I’ve been told, Black and white, she’s hard to compare, Of all the tigers, she is most rare!" },
  {"Name":"Bones", "Animal": "Dog", "Image": "/image/bones_ty.jpg"},
  {"Name":"Ally", "Animal": "Alligator", "Image": "/image/ally_ty.png"},
  {"Name":"Ants", "Animal": "Anteater", "Image": "/image/ant_ty.jpg"},
