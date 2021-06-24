@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <input type="text"
+             className="input"
              placeholder="Type name..."
              onChange={event => {
               setSearchTerm(event.target.value)

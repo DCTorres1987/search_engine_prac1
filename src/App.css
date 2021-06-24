@@ -1,15 +1,19 @@
-.App {
+* {
   text-align: center;
 }
 
+.input {
+  margin-bottom: 50px;
+}
 .beanie {
   box-shadow: 5px 10px lightgrey;
-  width: 300px;
-  height: 300px;
   display: flex;
-  padding: 50px;
   float: left;
-  margin: 25px;
+  height: 300px;
+  padding: 50px;
+  width: 300px;  
+}
+.beanie-image {
   justify-content: center;
 }
 
@@ -18,8 +22,3 @@
   font-size: 19px;
 }
 
-.main {
-  margin: 0;
-  padding: 0;
-  justify-content: center;  
-}
