@@ -4,6 +4,13 @@
 
 .input {
   margin-bottom: 50px;
+  margin-top: 50px;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .beanie {
   box-shadow: 5px 10px lightgrey;
