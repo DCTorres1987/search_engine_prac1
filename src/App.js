@@ -32,7 +32,7 @@ function App() {
                 <div className="beanie-text">
                   <b><p className="Name">{val.Name}</p></b>
                 </div>     
-                <p className="Poem">{val.Poem}</p>             
+                <div className="poem"><p className="Poem">{val.Poem}</p></div>             
               </div>             
             </div>            
           </div>
