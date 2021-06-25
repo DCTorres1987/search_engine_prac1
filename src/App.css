@@ -13,12 +13,15 @@
   box-sizing: border-box;
 }
 .beanie {
-  box-shadow: 5px 10px lightgrey;
+  border: solid lightgray;
   display: flex;
   float: left;
-  height: 400px;
+  height: 350px;
   padding: 50px;
-  width: 400px;  
+  width: 350px;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 .beanie-image {
   justify-content: center;
