@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>TY Beanie Baby Search</h1>
       <input type="text"
              className="input"
              placeholder="Type name of beanie babie..."
@@ -26,6 +27,7 @@ function App() {
       }).map((val, key) => {
         return (
           <div className="main">
+            
             <div className="beanie" key={'ID'+key}>
               <div className="beanie-image">
                 <img src={val.Image} alt={val.Name} /> 

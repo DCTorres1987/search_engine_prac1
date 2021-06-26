@@ -17,11 +17,11 @@
   display: flex;
   float: left;
   height: 350px;
-  padding: 50px;
-  width: 350px;
+  padding: 50px;  
   position: relative;
   margin-left: 10%;
   margin-top: 10px;
+  width: 350px;
 }
 .beanie-image {
   justify-content: center;
