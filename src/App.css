@@ -1,5 +1,11 @@
 * {
   text-align: center;
+  background-image: url("./assets/july_background.jpg");
+  
+}
+
+h1 {
+  color: white;
 }
 
 .input {
@@ -8,12 +14,14 @@
   width: 50%;
   padding: 12px 20px;
   display: inline-block;
+  background: white;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 .beanie {
   border: solid lightgray;
+  background: white;
   display: flex;
   float: left;
   height: 350px;
@@ -25,14 +33,25 @@
 }
 .beanie-image {
   justify-content: center;
+  background: white;
+}
+
+.beanie-text p {
+  background: white;
 }
 
 .poem {
   border-style: solid;
+  background: white;
+}
+
+.poem p {
+  background: white;
 }
 
 .beanie-text {
   text-align: center;
   font-size: 19px;
+  background: white;
 }
 
