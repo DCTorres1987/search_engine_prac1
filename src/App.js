@@ -8,6 +8,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="banner"></div>
+      <img src="/image/TY_Beanie_Baby_Banner.PNG" alt="banner" />
+
       <h1>TY Beanie Baby Search</h1>
       <input type="text"
              className="input"
@@ -23,6 +26,8 @@ function App() {
         } else if (val.Name.toLowerCase().includes(searchTerm.toLowerCase())) {
           return val
         };
+         
+          return false
       
       }).map((val, key) => {
         return (
