@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="App">
       <div className="banner"></div>
-      <img src="/image/TY_Beanie_Baby_Banner.PNG" alt="banner" />
+      <img className='banner-img' src="/image/TY_Beanie_Baby_Banner.PNG" alt="banner" />
 
-      <h1>TY Beanie Baby Search</h1>
       <input type="text"
              className="input"
              placeholder="Type name of beanie babie..."
@@ -32,13 +31,10 @@ function App() {
       }).map((val, key) => {
         return (
           <div className="main">
-            
-            <div className="beanie" key={'ID'+key}>
+            <div className="beanie" key={'ID'+key}>              
               <div className="beanie-image">
-                <img src={val.Image} alt={val.Name} /> 
-                <div className="beanie-text">
-                  <b><p className="Name">{val.Name}</p></b>
-                </div>     
+                <b><p className="Name">{val.Name}</p></b>
+                <img src={val.Image} alt={val.Name} />    
                 <div className="poem"><p className="Poem">{val.Poem}</p></div>             
               </div>             
             </div>            
