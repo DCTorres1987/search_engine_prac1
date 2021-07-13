@@ -31,9 +31,11 @@ function App() {
       }).map((val, key) => {
         return (
           <div className="main">
-            <div className="beanie" key={'ID'+key}>              
+            <div className="beanie" key={'ID'+key}>   
+            <i class="fab fa-ebay"></i>           
               <div className="beanie-image">
                 <b><p className="Name">{val.Name}</p></b>
+                
                 <img src={val.Image} alt={val.Name} />    
                 <div className="poem"><p className="Poem">{val.Poem}</p></div>             
               </div>             

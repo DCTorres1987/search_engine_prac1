@@ -10,7 +10,9 @@
 .beanie-image p,
 .beanie-text,
 .poem,
-.name {
+.name,
+.fa-ebay
+ {
   background: white;
 }
 
@@ -58,6 +60,11 @@
 
 .beanie-text {
   text-align: center;
-  font-size: 19px;
+  font-size: 25px;
+}
+
+.fa-ebay {
+  height: 60px;
+  width: 60px;
 }
 
