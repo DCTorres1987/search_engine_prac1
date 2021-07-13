@@ -32,7 +32,7 @@ function App() {
         return (
           <div className="main">
             <div className="beanie" key={'ID'+key}>   
-            <i class="fab fa-ebay"></i>           
+            <a href={val.EBAY}><img className="Ebay" src="/image/ebay.PNG" alt={val.Name} /></a>         
               <div className="beanie-image">
                 <b><p className="Name">{val.Name}</p></b>
                 

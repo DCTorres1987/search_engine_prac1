@@ -11,7 +11,8 @@
 .beanie-text,
 .poem,
 .name,
-.fa-ebay
+.Ebay,
+a
  {
   background: white;
 }
@@ -63,8 +64,9 @@
   font-size: 25px;
 }
 
-.fa-ebay {
-  height: 60px;
-  width: 60px;
+.Ebay {
+  width: 70px;
+  height: 50px;
+  position: absolute;
 }
 
