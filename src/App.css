@@ -44,7 +44,7 @@ a
   display: flex;
   float: left;
   height: 350px;
-  padding: 50px;  
+  padding: 65px;  
   position: relative;
   margin-left: 10%;
   margin-top: 10px;
@@ -52,6 +52,10 @@ a
 }
 .beanie-image {
   justify-content: center;
+}
+
+.beanie-name {
+  font-size: 20px;
 }
 
 .poem {
@@ -65,7 +69,7 @@ a
 }
 
 .Ebay {
-  width: 70px;
+  width: 75px;
   height: 50px;
   position: absolute;
 }

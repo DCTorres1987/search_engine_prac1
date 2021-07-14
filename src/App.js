@@ -34,7 +34,7 @@ function App() {
             <div className="beanie" key={'ID'+key}>   
             <a href={val.EBAY}><img className="Ebay" src="/image/ebay.PNG" alt={val.Name} /></a>         
               <div className="beanie-image">
-                <b><p className="Name">{val.Name}</p></b>
+                <b><p className="beanie-name">{val.Name}</p></b>
                 
                 <img src={val.Image} alt={val.Name} />    
                 <div className="poem"><p className="Poem">{val.Poem}</p></div>             
