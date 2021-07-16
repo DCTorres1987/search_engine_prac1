@@ -4,7 +4,12 @@ import {useState} from 'react';
 
 function App() {
  const [searchTerm, setSearchTerm] = useState('')
+//  const [results, setResults] = useState([]);
+//  const [searchBarcode, setSearchBarcode] = useState("");
 
+//  const filterBarcode = JSONDATA.filter((item) => {
+//    return searchBarcode !== "" ? item.UPC === searchBarcode : item;
+//  });
 
   return (
     <div className="App">
