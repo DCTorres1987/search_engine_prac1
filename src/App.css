@@ -29,16 +29,17 @@ a
 }
 
 .input {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  width: 50%;
-  padding: 12px 20px;
-  display: inline-block;
   background: white;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 12px 20px;
+  width: 50%;  
 }
+
 .beanie {
   border: solid lightgray;
   display: flex;
@@ -82,15 +83,15 @@ a
 }
 
 .text1 {
-  color: white;
-  justify-content: center;
   background: transparent;
+  color: white;
+  display: flex;
+  float: left;
   font-size: 80px;
+  justify-content: center;  
   margin-top: 10px;
   margin-bottom: 0;
   margin-left: 100px;
-  display: flex;
-  float: left;
 }
 
 .text2 {
@@ -99,9 +100,9 @@ a
   display: flex;
   background: transparent;
   font-size: 80px;
+  justify-content: right;
   margin-top: 10px;
   margin-bottom: 0;
-  margin-right: 100px;
-  justify-content: right;
+  margin-right: 100px;  
 }
 
