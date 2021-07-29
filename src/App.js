@@ -2,6 +2,7 @@ import './App.css';
 import JSONDATA from './data/MOCK_DATA.json';
 import {useState} from 'react';
 import styled from 'styled-components'
+import React from 'react';
 
 const INPUT_TEXT = styled.input`
   background: white;
