@@ -29,16 +29,22 @@ const BEANIE_DIV = styled.div `
   width: 350px;
 `;
 
+const BANNER_DIV = styled.div `
+  background-color: #89d4cf;
+  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+  height: 150px;
+`;
+
 function App() {
  const [searchTerm, setSearchTerm] = useState('')
 
   return (
     <div className="App">
-      <div className="banner">
+      <BANNER_DIV>
         <p className="text1">Search</p>               
         <img className="ty-image" src="/image/ty-tag-image2.png" alt="tyimage" />
         <p className="text2">Engine</p> 
-      </div>
+      </BANNER_DIV>
       <img className='banner-img' src="/image/ty_beanie_banner.PNG" alt="banner" />
 
       <INPUT_TEXT
