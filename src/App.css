@@ -5,7 +5,6 @@
 }
 
 
-.beanie,
 .beanie-image,
 .beanie-image p,
 .beanie-text,
@@ -28,29 +27,6 @@ a
   width: 100%;
 }
 
-.input {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: inline-block;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding: 12px 20px;
-  width: 50%;  
-}
-
-.beanie {
-  border: solid lightgray;
-  display: flex;
-  float: left;
-  height: 350px;
-  padding: 65px;  
-  position: relative;
-  margin-left: 10%;
-  margin-top: 10px;
-  width: 350px;
-}
 .beanie-image {
   justify-content: center;
 }
